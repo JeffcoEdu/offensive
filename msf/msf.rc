@@ -1,0 +1,50 @@
+load alias
+alias -f autoroute "use post/multi/manage/autoroute"
+alias -f dcom-exec "use auxiliary/scanner/smb/impacket/dcomexec"
+alias -f enable-rdp "use post/windows/manage/enable_rdp"
+alias -f enum-adusers "use post/windows/gather/enum_ad_group_users"
+alias -f enum-applications "use post/multi/recon/enum_applications"
+alias -f enum-creds "use post/windows/gather/credentials/winenum"
+alias -f enum-domain "use post/multi/gather/enum_domain"
+alias -f enum-services "use post/multi/recon/enum_services"
+alias -f enum-system "use post/multi/recon/enum_system"
+alias -f execute-assembly "use post/windows/manage/execute_dotnet_assembly"
+alias -f handler "use exploit/multi/handler"
+alias -f hashdump "use post/windows/gather/hashdump"
+alias -f mssql-hashdump "use auxiliary/scanner/mysql/myssl_hashdump"
+alias -f mssql-schemadump "use auxiliary/scanner/mysql/myssl_schemadump"
+alias -f multi-pwn "use post/windows/manage/multi_meterpreter_inject"
+alias -f mysql-hashdump "use auxiliary/scanner/mysql/mysql_hashdump"
+alias -f mysql-login "use auxiliary/scanner/mysql/mysql_login"
+alias -f mysql-schemadump "use auxiliary/scanner/mysql/mysql_schemadump"
+alias -f persist "use exploit/windows/local/persistence_service"
+alias -f ps-exec "use exploit/windows/smb/psexec"
+alias -f secrets-dump "use auxiliary/scanner/smb/impacket/secretsdump"
+alias -f shares "use post/windows/gather/enum_shares"
+alias -f smartdump "use post/windows/gather/smart_hashdump"
+alias -f smb-enumusers-domain "use auxiliary/scanner/smb/smb_enumusers_domain"
+alias -f smb-login "use auxiliary/scanner/smb/smb_login"
+alias -f suggest-exploit "use post/multi/recon/local_exploit_suggester"
+alias -f upgrade "use post/multi/manage/shell_to_meterpreter"
+alias -f users "use post/windows/gather/enum_logged_on_users"
+alias -f wmiexec "use auxiliary/scanner/smb/impacket/wmiexec"
+
+#alias -f meterpreter-Linux86_tcp "resource meterpreter/meterpreterWinx64_tcp.rc"
+#alias -f meterpreter-Win86_tcp "resource meterpreter/meterpreterWinx86_tcp.rc"
+
+alias -f meterpreter-Win64_tcp "resource meterpreter/meterpreterWinx64_tcp.rc"
+alias -f meterpreter-Linux64_tcp "resource meterpreter/meterpreterLinux64_tcp.rc"
+
+alias -f seatbelt-group-all "resource post/seatbelt/seatbelt_group_all.rc"
+alias -f seatbelt-group-user "resource post/seatbelt/seatbelt_group_user.rc"
+alias -f seatbelt-tcp-all "resource post/seatbelt/seatbelt_all_tcp.rc"
+
+alias -f winpeas-lolbas "resource post/winpeas/winpeas_lolbas.rc"
+
+
+
+<ruby>
+
+sleep(1)
+</ruby>
+
