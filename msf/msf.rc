@@ -29,17 +29,19 @@ alias -f upgrade "use post/multi/manage/shell_to_meterpreter"
 alias -f users "use post/windows/gather/enum_logged_on_users"
 alias -f wmiexec "use auxiliary/scanner/smb/impacket/wmiexec"
 
-#alias -f meterpreter-Linux86_tcp "resource meterpreter/meterpreterWinx64_tcp.rc"
-#alias -f meterpreter-Win86_tcp "resource meterpreter/meterpreterWinx86_tcp.rc"
+#alias -f meterpreter-Linux86_tcp "resource resource/meterpreterWinx64_tcp.rc"
+#alias -f meterpreter-Win86_tcp "resource resource/meterpreterWinx86_tcp.rc"
 
-alias -f meterpreter-Win64_tcp "resource meterpreter/meterpreterWinx64_tcp.rc"
-alias -f meterpreter-Linux64_tcp "resource meterpreter/meterpreterLinux64_tcp.rc"
+alias -f meterpreter-Win64_tcp "resource resource/meterpreterWinx64_tcp.rc"
+alias -f meterpreter-Linux64_tcp "resource resource/meterpreterLinux64_tcp.rc"
 
-alias -f seatbelt-group-all "resource post/seatbelt/seatbelt_group_all.rc"
-alias -f seatbelt-group-user "resource post/seatbelt/seatbelt_group_user.rc"
-alias -f seatbelt-tcp-all "resource post/seatbelt/seatbelt_all_tcp.rc"
+alias -f seatbelt-group-all "resource post/seatbelt_group_all.rc"
+alias -f seatbelt-group-user "resource post/seatbelt_group_user.rc"
+alias -f seatbelt-tcp-all "resource post/seatbelt_all_tcp.rc"
+alias -f bloodhound "resource post/bloodhound.rc"
 
-alias -f winpeas-lolbas "resource post/winpeas/winpeas_lolbas.rc"
+
+#alias -f winpeas-lolbas "resource post/winpeas_lolbas.rc"
 
 
 

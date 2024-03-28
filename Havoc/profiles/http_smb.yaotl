@@ -10,7 +10,7 @@ Teamserver {
 }
 
 Operators {
-    user "student" {
+    user "byinarie" {
         Password = "password1234"
     }
 }
@@ -19,9 +19,9 @@ Listeners {
     Http {
         Name         = "https"
         Hosts        = [
-             "tun0 or eth0 IPV4 goes here"
+             "10.10.100.125"
         ]
-        HostBind     = "tun0 or eth0 IPV4 goes here" 
+        HostBind     = "10.10.100.125" 
         HostRotation = "round-robin"
         PortBind     = 443
         PortConn     = 443
