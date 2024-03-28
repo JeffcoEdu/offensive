@@ -1,0 +1,5 @@
+/home/byinarie/jeffco/offensive/Havoc/client/Build/CMakeFiles/Havoc.dir
+/home/byinarie/jeffco/offensive/Havoc/client/Build/CMakeFiles/edit_cache.dir
+/home/byinarie/jeffco/offensive/Havoc/client/Build/CMakeFiles/rebuild_cache.dir
+/home/byinarie/jeffco/offensive/Havoc/client/Build/CMakeFiles/Havoc_autogen_timestamp_deps.dir
+/home/byinarie/jeffco/offensive/Havoc/client/Build/CMakeFiles/Havoc_autogen.dir
