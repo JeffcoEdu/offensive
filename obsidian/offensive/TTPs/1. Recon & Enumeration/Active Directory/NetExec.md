@@ -27,3 +27,5 @@ nxc smb WS01-PC.acme.corp -u 'guest' -p '' -M spider_plus -o DOWNLOAD_FLAG=true
 
 nxc smb WS01-PC.acme.corp -u 'user' -p 'pass' --lsa
 ```
+
+

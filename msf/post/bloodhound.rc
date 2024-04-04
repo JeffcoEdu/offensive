@@ -1,6 +1,6 @@
 <ruby>
 CWD = Dir.pwd
-DOTNET_EXE = "#{CWD}/dotnet/SharpHound.exe"
+DOTNET_EXE = "#{CWD}/post/dotnet/SharpHound.exe"
 ARGUMENTS = '-c all -s'
 TECHNIQUE = 'SPAWN_AND_INJECT'
 KILL = 'true'

@@ -14,3 +14,16 @@ obsidian/offensive/TTPs/2.5 Credentials/0. Credential Dumping 101.md
 obsidian/offensive/TTPs/2.5 Credentials/0. Credential Impersonation 101.md
 obsidian/offensive/TTPs/2.5 Credentials/0. Credential Shuffling 101.md
 obsidian/offensive/TTPs/4. Movement/0. Lateral Movement 101.md
+Havoc/profiles/http_smb.yaotl
+.obsidian/
+10.10.100.125.demon.x64.exe
+Havoc/data/client.db
+Havoc/data/extensions/
+Havoc/data/loot/
+Havoc/data/server.cert
+Havoc/data/server.key
+Havoc/data/teamserver.db
+hosts.txt
+obsidian/.obsidian/
+pass.txt
+users.txt

