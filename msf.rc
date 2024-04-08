@@ -1,0 +1,79 @@
+load alias
+alias -f autoroute "use post/multi/manage/autoroute"
+alias -f socks-pivot "use auxiliary/server/socks_proxy" 
+
+alias -f windows-enable-rdp "use post/windows/manage/enable_rdp"
+alias -f windows-enum-adusers "use post/windows/gather/enum_ad_group_users"
+alias -f enum-applications "use post/multi/recon/enum_applications"
+alias -f windows-enum-creds "use post/windows/gather/credentials/winenum"
+alias -f enum-domain "use post/multi/gather/enum_domain"
+alias -f enum-system "use post/multi/recon/enum_system"
+alias -f execute-assembly "use post/windows/manage/execute_dotnet_assembly"
+alias -f handler "use exploit/multi/handler"
+alias -f hashdump "use post/windows/gather/hashdump"
+alias -f mssql-hashdump "use auxiliary/scanner/mysql/myssl_hashdump"
+alias -f mssql-schemadump "use auxiliary/scanner/mysql/myssl_schemadump"
+alias -f windows-multi-pwn "use post/windows/manage/multi_meterpreter_inject"
+alias -f mysql-hashdump "use auxiliary/scanner/mysql/mysql_hashdump"
+alias -f mysql-login "use auxiliary/scanner/mysql/mysql_login"
+alias -f mysql-schemadump "use auxiliary/scanner/mysql/mysql_schemadump"
+alias -f windows-persist-service "use exploit/windows/local/persistence_service"
+alias -f windows-ps-exec "use exploit/windows/smb/psexec"
+alias -f windows-shares "use post/windows/gather/enum_shares"
+alias -f windows-smartdump "use post/windows/gather/smart_hashdump"
+alias -f smb-enumusers-domain "use auxiliary/scanner/smb/smb_enumusers_domain"
+alias -f smb-login "use auxiliary/scanner/smb/smb_login"
+alias -f multi-upgrade "use post/multi/manage/shell_to_meterpreter"
+alias -f multi-deliver "use exploit/multi/script/web_delivery"
+alias -f multi-execute "use post/multi/general/execute"
+alias -f linux-persist-ssh "use post/linux/manage/sshkey_persistence"
+alias -f linux-enum-systen "use post/linux/gather/enum_system"
+alias -f linux-enum-software "use post/multi/gather/enum_software_versions"
+alias -f post-multi-exploits "use post/multi/recon/local_exploit_suggester"
+
+alias -f windows-enum-services "use post/windows/gather/enum_services"
+alias -f windows-logged-on-users "use post/windows/gather/enum_logged_on_users"
+alias -f windows-impacket-wmiexec "use auxiliary/scanner/smb/impacket/wmiexec"
+alias -f windows-impacket-dcomexec "use auxiliary/scanner/smb/impacket/dcomexec"
+alias -f windows-impacket-secretsdump "use auxiliary/scanner/smb/impacket/secretsdump"
+
+alias -f windows-scan-arp "use post/windows/gather/arp_scanner"
+
+alias -f portscan-tcp-25 "resource msf/resource/portscan-tcp-25.rc"
+alias -f portscan-tcp-100 "resource msf/resource/portscan-tcp-100.rc"
+alias -f portscan-tcp-150 "resource msf/resource/portscan-tcp-150.rc"
+alias -f portscan-tcp-250 "resource msf/resource/portscan-tcp-250.rc"
+alias -f portscan-tcp-500 "resource msf/resource/portscan-tcp-500.rc"
+alias -f portscan-tcp-1000 "resource msf/resource/portscan-tcp-1000.rc"
+
+
+alias -f generate_shellcode_x64_meterpreter "use payload/windows/x64/meterpreter_reverse_tcp"
+
+#alias -f meterpreter-Linux86_tcp "resource resource/meterpreterWinx64_tcp.rc"
+#alias -f meterpreter-Win86_tcp "resource resource/meterpreterWinx86_tcp.rc"
+
+###
+### Resource scripts start here
+###
+
+alias -f meterpreter-win64_tcp "resource msf/resource/meterpreterWinx64_tcp.rc"
+alias -f meterpreter-linux64_tcp "resource msf/resource/meterpreterLinux64_tcp.rc"
+alias -f sharp-edr-checker "resource msf/resource/sharp_edr_checker.rc"
+alias -f sharpup-audit "resource msf/resource/sharpup.rc"
+alias -f winPEASany "resource msf/resource/winPEASany.rc"
+alias -f inject-shellcode "resource msf/resource/inject.rc"
+
+alias -f seatbelt-group-all "resource msf/resource/seatbelt_group_all.rc"
+alias -f seatbelt-group-user "resource msf/resource/seatbelt_group_user.rc"
+alias -f seatbelt-tcp-all "resource msf/resource/seatbelt_all_tcp.rc"
+alias -f bloodhound "resource msf/resource/bloodhound.rc"
+
+#alias -f winpeas-lolbas "resource post/winpeas_lolbas.rc"
+
+
+
+<ruby>
+
+sleep(1)
+</ruby>
+
