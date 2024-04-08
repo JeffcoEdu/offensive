@@ -24,21 +24,30 @@ alias -f shares "use post/windows/gather/enum_shares"
 alias -f smartdump "use post/windows/gather/smart_hashdump"
 alias -f smb-enumusers-domain "use auxiliary/scanner/smb/smb_enumusers_domain"
 alias -f smb-login "use auxiliary/scanner/smb/smb_login"
-alias -f suggest-exploit "use post/multi/recon/local_exploit_suggester"
+alias -f enum-exploits "use post/multi/recon/local_exploit_suggester"
 alias -f upgrade "use post/multi/manage/shell_to_meterpreter"
 alias -f users "use post/windows/gather/enum_logged_on_users"
 alias -f wmiexec "use auxiliary/scanner/smb/impacket/wmiexec"
+alias -f socks "use auxiliary/server/socks_proxy" 
+alias -f inject-shellcode "resource resource/inject.rc"
+alias -f scan-arp "use post/windows/gather/arp_scanner"
+
+alias -f generate_shellcode_x64_meterpreter "use payload/windows/x64/meterpreter_reverse_tcp"
 
 #alias -f meterpreter-Linux86_tcp "resource resource/meterpreterWinx64_tcp.rc"
 #alias -f meterpreter-Win86_tcp "resource resource/meterpreterWinx86_tcp.rc"
 
-alias -f meterpreter-Win64_tcp "resource resource/meterpreterWinx64_tcp.rc"
-alias -f meterpreter-Linux64_tcp "resource resource/meterpreterLinux64_tcp.rc"
+###
+### Resource scripts start here
+###
 
-alias -f seatbelt-group-all "resource post/seatbelt_group_all.rc"
-alias -f seatbelt-group-user "resource post/seatbelt_group_user.rc"
-alias -f seatbelt-tcp-all "resource post/seatbelt_all_tcp.rc"
-alias -f bloodhound "resource post/bloodhound.rc"
+alias -f meterpreter-win64_tcp "resource msf/resource/meterpreterWinx64_tcp.rc"
+alias -f meterpreter-linux64_tcp "resource msf/resource/meterpreterLinux64_tcp.rc"
+alias -f sharp-edr-checker "resource msf/resource/sharp_edr_checker.rc"
+alias -f seatbelt-group-all "resource msf/resource/seatbelt_group_all.rc"
+alias -f seatbelt-group-user "resource msf/resource/seatbelt_group_user.rc"
+alias -f seatbelt-tcp-all "resource msf/resource/seatbelt_all_tcp.rc"
+alias -f bloodhound "resource msf/resource/bloodhound.rc"
 
 
 #alias -f winpeas-lolbas "resource post/winpeas_lolbas.rc"

